@@ -1,0 +1,71 @@
+Automated Weight Compensator for Backpacks
+
+Hello all, 
+
+My name is Morgan Sukalo and my ECE 445 group is interested in smart devices that automate daily life or make it easier. Below is one of our ideas for our project this semester. 
+
+Problem: Backpacks are often too heavy to be comfortable, especially when overpacked and worn for a long time. Overweight backpacks are a major contributor to back, neck and shoulder pain in any who use them on a daily basis. As such, finding a solution to this problem is paramount; is there a way to minimize the weight of a backpack to relieve back and shoulder stress of the user? Can this solution be fully automated and easily attached to any backpack, giving the user the illusion that the backpack is lighter than it seems? 
+
+Solution: My group’s goal is to create a device that can attach to any backpack that will use some sort of lifting device (such as a balloon or drone) to help lift the bag. This device will maintain a “felt” weight (weight of the backpack as felt by the user when it is on the user’s back) of about 3lbs, and a PCB will be developed with a fully automated feedback control system to maintain this 3lbs “felt” weight. Sensors and actuators will be incorporated into this system in order to achieve this. The sensors/actuators to be used will depend on the method used to lift the backpack. 
+
+
+
+
+Smart Water Bottle
+
+Hello all, 
+
+My name is Morgan Sukalo and my ECE 445 group is interested in smart devices that automate daily life or make it easier. Below is one of our ideas for our project this semester. 
+
+Problem: It is very easy to recognize when you’re sick - you feel fatigued, sweat profusely, and have an elevated heart rate. Going to the doctor and getting a prescription is a hassle, but what if this could all be avoided? What if preventative care could be automatically administered to you based on your needs throughout your daily routine? 
+
+Preventative care is not only important for illness, but also for any extreme activities such as performing manual labor outside on a hot sunny day or working out. Instead of having to suffer through the possible ill effects of these activities, what if a device could be used to monitor your health and automatically administer supplements (vitamins, minerals, electrolytes) according to not only your needs, but also the environment at the time? Preventative healthcare is the best healthcare, and when it comes to health, it is time to get smart. The Smart Bottle is up to the task. 
+
+Solution: My group’s goal is to create two devices which work together; the first is a wearable PCB which takes data on the state of the wearer’s body and the environment. Information such as body temperature, heart rate, the existence of sweat on skin, air temperature and sunlight will be recorded. This PCB will then wirelessly communicate this information to another PCB nearby, which will be attached to the Smart Bottle. The Smart Bottle is a water bottle which will have cartridges connected to it. These cartridges will hold different vitamins, minerals and electrolytes. Depending on the data received from the wearable PCB, the Smart Bottle will administer some amount of these supplements into the water. This, of course, will be based on the user’s needs at the time. Is the user at rest but has an elevated heart rate/temperature? Smart Bottle will administer vitamin C into the water to help fight against illness. Has the user been in the sun for some time and is sweating profusely? Smart Bottle will inject electrolytes that the user may have lost into the water. Overall, preventative healthcare can be a hassle. Automating this process allows our user to focus on what is important. 
+
+Q: How can you demonstrate that the certain supplement has been mixed in the water? What about its weight? adding cartridges will change the ergonomics of it.
+
+A: Hello all, thanks for your questions/comments/concerns. Below is an answer to Sainath's questions: I plan on having the cartridges be filled with liquids of highly concentrated vitamins/minerals/electrolytes. This will allow for the cartridges to be small and lightweight. As for the ergonomics of the design, I was thinking of having the cartridges be an attachment made to the bottom of the water bottle. This would simply make the bottle slightly taller. 
+
+To demonstrate that a certain supplement has been mixed with the water, it is simply a matter of having the contents of each cartridge be a specific color. For example, vitamin C may be yellow and electrolytes may be blue. If a combination of vitamin C and electrolytes is injected into the water, this will be an identifiable green. Essentially, the color of the water will indicate what supplements are in it.
+
+Right now I am looking into what Nikhil has recommended! I will post another reply after doing some research on possible integration with an apple smartwatch. I just want to ensure that this is feasible. 
+
+I looked into 3 main smart watches/fitness bands on the market to identify feasibility in their use with our design. Using an apple smart watch will not work best for our application because it is very difficult to export 
+
+
+Smart Plant Pot
+
+Hello all, 
+
+My name is Morgan Sukalo and my ECE 445 group is interested in smart devices that automate daily life or make it easier. Below is one of our ideas for our project this semester. 
+
+Problem: Keeping plants alive can be difficult at times, especially when one is unaware of how to take proper care. Not only this, but forgetting to actually care for the plant is a major issue as well. Being a plant parent should not just be for those who have green thumbs, but it should be for all. With this being said, how can we possibly tear down the barriers that many face when it comes to proper house plant care? 
+
+Solution: To achieve this goal, my group has come up with the Smart Pot, which has the capabilities to autonomously take care of any plant. This pot will be fitted with a user interface (a screen) where the user can specify what plant is in the pot. From there, the Smart Pot handles it all. 
+
+The Smart Pot will consist of a UV light, a water canister, and a soil nutrient canister. A light sensor (to identify how much light the plant is exposed to on a daily basis) and a water sensor (to measure the amount of water in the soil) among other sensors will be incorporated. A fully automated PCB will be developed, and all sensors will be monitored to ensure that the plant is growing in the most optimized environment. To elaborate further, the water sensor plays a role in determining how often the plant will be watered, and the light sensor will determine the amount of time the UV light will need to be on. 
+
+The Smart Pot will also have a feature where it can make recommendations on the care of the plant. The Smart Pot will have the capability to advise the user to move the plant into an alternative location if it is exposed to too much or too little light. Not only this, but the Smart Pot will be able to monitor its water and nutrient supply levels, and will push notifications to the user interface to advise that restocking occurs if need be. A stretch goal for this project would be to incorporate computer vision and utilize DSP to have the Smart Pot monitor the plant for disease. If identified, the Smart Pot will advise the user on how to combat it. 
+
+Q: In addition to a light and moisture sensor, it sounds like your team is looking to add quite a bit features to your smart pot. So when developing this idea more, it's important that your continues to define what are the point common mistakes when taking care of plants and how one or multiple features that you add address each of those pain points. Also, if your team is aiming to create a pot autonomously takes care of a plant, I would challenge your team to come up with a solution that truly requires zero interaction from the plant owner. For instance, what if I'm off campus for the summer and I couldn't find anyone (that I trust) to take care of my plants, would the smart pot be able to handle that?
+
+A: Hey Jason, thanks for the feedback. When we talk about autonomous care, here are our ideas: instead of a water canister, we will hook up the water supply to, perhaps, a sink. An electronic valve will then control when water is given to the plant. The nutrients will be highly concentrated and held within a medium canister, so this will only have to be refilled once or twice a year. 
+In terms of adding more features, I looked more into common mistakes made with growing houseplants. Below are these issues/mistakes, and the new feature that will be added to the design which will combat it: 
+
+Issue: Plant outgrows pot
+Solution: Use depth-sensing technology (radar, ultrasonic sensor, etc.) to detect the current height and width of the plant. Use this data to identify whether the plant needs a new pot.
+
+Issue: Tap Water could be potentially dangerous for plants because it could contain sodium. 
+Solution: Right now my group is deciding between hydroponics or the traditional dirt approach. This being said, both instances will need to have the water tested and monitored. As such, having a salinity sensor to test the tap water is imperative. If an amount above a specified threshold is detected, we will drain the water to purify it or replace it.  
+
+Issue: Most house plants need a humidity between 50-60%, and tropical plants need a value higher than this to protect against transpiration. 
+Solution: Use a sensor to detect the amount of humidity in the air near the plant. Use a humidifier as an actuator when the humidity is too low. 
+
+Issue: Plant is exposed to too much sunlight, but no one is there to move it. 
+Solution: Use a light sensor to detect where the light is coming from, and raise a shade that blocks light from this direction for the plant. Continuously monitor how much light the plant is exposed to, as this will affect how long/if the shade is raised. 
+
+Issue: Certain plants need different care for the different seasons. 
+Solution: Use a temperature sensor, light sensor, and possibly an internal clock in the microcontroller to identify changes in season, and be able to provide the best care for the plant. 
+
+For future questions/information, please refer to the repost I made! I want to have all of the Q/A all in one place for this project. 
